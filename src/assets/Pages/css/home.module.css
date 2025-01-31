@@ -1,0 +1,129 @@
+.body {
+    padding-left: 30rem;
+    background-color: var(--light-bg);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.body2 {
+
+    padding: 2rem;
+    font-size: 15px;
+    margin-right: 3rem;
+
+}
+
+
+.attendence {
+    margin: 2rem;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+
+}
+
+.body2 h1 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.attendence .attmain h3 {
+    font-size: 1.5rem;
+}
+
+#agg {
+    text-align: end;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.bar {
+    /* height: 2rem; */
+    background-color: var(--light-bg);
+    border-radius: 20px;
+    margin-top: .2rem;
+    margin-bottom: 2rem;
+}
+
+.fill {
+    /* align-items: center;s */
+    justify-content: center;
+    font-size: 1.5rem;
+    /* height: 2rem; */
+    background-color: var(--main-color);
+    border-radius: 1rem;
+    color: var(--white);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.timetable {
+
+    margin: 3rem 2rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-bottom: 2.5rem;
+    border-bottom: var(--border);
+    padding-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+.cards_container {
+    /* justify-content: center; */
+    align-items: cen ter;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card h1 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.card {
+    padding: 3rem;
+    background-color: var(--white);
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.timetable button {
+    padding: 1rem 3rem;
+    background-color: var(--main-color);
+    color: var(--white);
+    border: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.lastSection {
+    display: flex;
+}
+
+.Announcements {
+    width: 60%;
+    padding: 3rem 2rem;
+    background-color: var(--white);
+    border-radius: 15px;
+    margin: 0 2rem;
+}
+
+.teacherOnLeave {
+    width: 40%;
+    padding: 3rem 2rem;
+    background-color: var(--white);
+    border-radius: 15px;
+}
